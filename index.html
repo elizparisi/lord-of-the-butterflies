@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- These meta tags are both essential! -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lord of the Butterflies</title>
+
+    <!-- Load custom css AFTER Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-E83F0C">
+        <a class="navbar-brand" href="index.html">Lord of the Butterflies</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lifecycle.html">Life Cycle</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Monarch Butterfly</h1>
+            <p class="lead">King of Butterflies</p>
+        </div>
+    </div>
+    <div class="empty"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="main-info">The Monarch butterfly is one of the most recognizable species in North America. They are considered the king of butterflies, hence the name "monarch".<br><br> These butterflies go through four phases in their life cycle and four generations in a single year. You can learn more about the different stages <a href="lifecycle.html">here</a>. <br><br> The fourth generation of Monarchs live longer and migrate to warmer climates like California and Mexico during winter months, traveling around 2500 miles! They rest through the winter and then return North in search of Milkweed.<br><br> The Monarchs' population is dwindling and they are considered to be on the verge of extinction. Both social and government agencies are working on initiaves to help grow the Monarch population.</p>
+            </div>
+            <div class="col-lg-6">
+                <img class="urban-butterfly" src="images/urban-butterfly.jpg">
+            </div>
+        </div>
+    </div>
+    <div id="contact">Contact</div>
+
+    <div id="contactForm">
+
+        <h1 class="popup">Send some love!</h1>
+        <small>We'll get back to you as quickly as possible</small>
+
+        <form action="#">
+            <input placeholder="Name" type="text" required />
+            <input placeholder="Email" type="email" required />
+            <input placeholder="Subject" type="text" required />
+            <textarea placeholder="Comment"></textarea>
+            <input class="formBtn" type="submit" />
+            <input class="formBtn" type="reset" />
+        </form>
+    </div>
+    <footer class="footer">
+        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i>
+    </footer>
+
+    <!-- Scripts should be loaded at the bottom of the body and must go in this order -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

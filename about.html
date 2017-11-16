@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- These meta tags are both essential! -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lord of the Butterflies</title>
+
+    <!-- Load custom css AFTER Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-E83F0C">
+        <a class="navbar-brand" href="index.html">Lord of the Butterflies</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lifecycle.html">Life Cycle</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- end nav section -->
+    <!-- About Image Section -->
+    <h1 class="fun-facts">Check Out Some Fun Facts About the Monarch Butterfly!</h1>
+    <div></div>
+    <!-- About Image Section -->
+    <div class="container-about">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6"><img class="img-responsive" src="images/colorful-resize.jpg">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6"><img class="img-responsive" src="images/closeup-resize.jpg">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6"><img class="img-responsive" src="images/clover-resize.jpg">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6"><img class="img-responsive" src="images/mating.jpg"></div>
+            <div class="col-lg-4 col-md-4 col-sm-6"><img class="img-responsive" src="images/mexico-pine.jpg"></div>
+            <div class="col-lg-4 col-md-4 col-sm-6"><img class="img-responsive" src="images/milkweed.jpg"></div>
+            <div class="col-lg-4 col-md-4 col-sm-6"><img class="img-responsive" src="images/monarch-caterpillar.jpg">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6"><img class="img-responsive" src="images/monarchs.jpg"></div>
+            <div class="col-lg-4 col-md-4 col-sm-6"><img class="img-responsive" src="images/wing-span.jpg"></div>
+        </div>
+    </div>
+    <!-- quote generator -->
+    <div id="quoteDisplay">
+        <!-- Quotes will display here -->
+    </div>
+    <!-- Center is added for button placement -->
+    <center>
+        <button class="quotes" onclick="newQuote()">Fun Facts!</button></center>
+
+    <footer class="footer">
+        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i>
+    </footer>
+
+
+    <!-- Scripts should be loaded at the bottom of the body and must go in this order -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
